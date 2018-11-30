@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 8003
 
 eureka:
   client:
@@ -17,7 +17,7 @@ eureka:
 info:
   app.name: ${spring.application.name}
   company.name: www.chenhaijun.com
-  build.artifactId: mic-service-cloud-dept-comsumer-8000
+  build.artifactId: mic-service-cloud-user-comsumer-8000
   build.version: 0.0.1-SNAPSHOT
 
 debug: true
@@ -29,7 +29,7 @@ logging:
 
 spring:
   application:
-    name: mic-dept-provider
+    name: mic-user-provider
   datasource:
       driver_class_namel: com.mysql.jdbc.Driver
       type: com.alibaba.druid.pool.DruidDataSource
